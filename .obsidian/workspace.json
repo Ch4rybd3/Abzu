@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Projects/Labs/Placeholder.md",
+                "file": "04 - Projects/Presentation/Forensic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Placeholder"
+              "title": "Forensic"
+            }
+          },
+          {
+            "id": "e691418b9f595796",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Tools/sqlitebrowser.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sqlitebrowser"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,28 +220,36 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "20a98889b47eb002",
+  "active": "e691418b9f595796",
   "lastOpenFiles": [
-    "05 - Certifications/HTB/CDSA/Placeholder2.md",
-    "04 - Projects/Labs/Placeholder.md",
-    "LICENSE",
-    "03 - Tools/chainsaw.md",
-    "Tools.base",
-    "03 - Tools/Sysinternals/Autoruns.md",
-    "Templates/Tools.md",
-    "03 - Tools/ZSH (Oh My Zsh).md",
-    "Excalidraw/Sysmon.excalidraw",
-    "Quick notes.md",
-    "Templates/Processes.md",
-    "03 - Tools/sqlitebrowser.md",
-    "Templates/Artifacts.md",
-    "03 - Tools/Eric Zimmerman tools/EvtxEcmd.exe.md",
-    "Excalidraw/ETW.excalidraw",
-    "03 - Tools/avml.md",
-    "03 - Tools/Sysinternals/Sysmon.md",
-    "03 - Tools/Eric Zimmerman tools/KAPE.md",
+    "01 - Knowledge Base/General/Windows/Shellbags.md",
     "01 - Knowledge Base/General/Windows/MACE.md",
+    "01 - Knowledge Base/General/Windows/Useful EventIds.md",
+    "04 - Projects/Presentation/Forensic.md",
+    "03 - Tools/ZSH (Oh My Zsh).md",
+    "03 - Tools/avml.md",
+    "03 - Tools/sqlitebrowser.md",
+    "03 - Tools/volatility3.md",
     "03 - Tools/Velociraptor.md",
+    "03 - Tools/chainsaw.md",
+    "03 - Tools/Eric Zimmerman tools/KAPE.md",
+    "Excalidraw/ETW.excalidraw",
+    "01 - Knowledge Base/General/Windows/ETW.md",
+    "Excalidraw/Sysmon.excalidraw",
+    "03 - Tools/Sysinternals/Sysmon.md",
+    "03 - Tools/eventvwr.md",
+    "Tools.base",
+    "README.md",
+    "Templates/Artifacts.md",
+    "Templates/Tools.md",
+    "Quick notes.md",
+    "04 - Projects/Presentation",
+    "04 - Projects/Labs/Placeholder.md",
+    "05 - Certifications/HTB/CDSA/Placeholder2.md",
+    "LICENSE",
+    "03 - Tools/Sysinternals/Autoruns.md",
+    "Templates/Processes.md",
+    "03 - Tools/Eric Zimmerman tools/EvtxEcmd.exe.md",
     "03 - Tools/attachments/Velociraptor-1770048648072.png",
     "03 - Tools/attachments/Velociraptor-1770048634792.png",
     "03 - Tools/attachments/Velociraptor-1770048625316.png",
@@ -235,23 +258,15 @@
     "03 - Tools/attachments/image-2.png",
     "03 - Tools/attachments/image-1.png",
     "03 - Tools/attachments/image.png",
-    "01 - Knowledge Base/General/Windows/ETW.md",
     "03 - Tools/Velociraptor/Install.md",
     "03 - Tools/Velociraptor",
-    "03 - Tools/eventvwr.md",
     "01 - Knowledge Base/General/Windows/attachments/Shellbags-1768224289597.png",
     "01 - Knowledge Base/General/Windows/attachments/ETW-1769520294190.png",
     "01 - Knowledge Base/General/Windows/attachments",
-    "01 - Knowledge Base/General/Windows/Useful EventIds.md",
-    "01 - Knowledge Base/General/Windows/Shellbags.md",
     "01 - Knowledge Base/General/Windows",
     "01 - Knowledge Base/General/Windows/Windows/Useful EventIds.md",
     "01 - Knowledge Base/General/Windows/Windows/Shellbags.md",
-    "01 - Knowledge Base/General/Windows/Windows/ETW.md",
     "01 - Knowledge Base/General/Windows/Windows/attachments",
-    "01 - Knowledge Base/General/Windows/Windows",
-    "Excalidraw",
-    "README.md",
-    "03 - Tools/volatility3.md"
+    "01 - Knowledge Base/General/Windows/Windows"
   ]
 }

@@ -27,7 +27,7 @@ this is a goldmine when it comes to investigating because you can :
 # Usage
 ## Test the tool
 You can just start it from the search menu, of by typing `sqlitebrowser` in a terminal
-You can open the Firefox `plaxes.sqlite` to test the tool : 
+You can open the Firefox `places.sqlite` to test the tool : 
 ```
 /home/analyst/snap/firefox/common/.mozilla/firefox/ppqe8bak.default/places.sqlite
 ```
