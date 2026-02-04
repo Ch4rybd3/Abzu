@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - Type == link("Tools")
+    order:
+      - file.name
+      - tags
+      - Platform
+      - Input
+      - Output
+      - Description
+    sort:
+      - property: Platform
+        direction: DESC
+    columnSize:
+      note.Platform: 190

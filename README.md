@@ -1,0 +1,3 @@
+Abzu is an obsidian vault that serve as my own personnal documentation.
+It is a cybersecurity oriented vault that is heavily tinted with DFIR.
+You'll find procedure, technical tool documentation, artifacts explanation, ready to use cheatsheets, all that using the powerful features of Obsidian like databases, excalidraw integration, ...

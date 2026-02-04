@@ -1,0 +1,6 @@
+**MACE** is an acronym used in **File System Forensics** (especially NTFS) to summarize the four main file metadata timestamps:
+
+- **M (Modified):** The last time the _contents_ of the file were changed.
+- **A (Accessed):** The last time the file was _read_ or opened (often disabled on modern Windows systems for performance).
+- **C (Created):** The time the file was _created_.
+- **E (Entry Modified):** The last time the file's **metadata** (like file name, size, permissions, or MACE times themselves) was modified within the directory entry. The **Entry Modified (E)** time is often considered the most reliable indicator of **user activity** because it is updated whenever the file is moved, renamed, or copied, or when its contents are modified. The **Modified (M)** time is misleading because automated processes (like virus scans or backup software) can change file contents without direct user interaction. The **E** time provides a reliable record of the _last structural change_ made to the file's directory entry, which is highly relevant to establishing the user's interaction with the **digital evidence**.
