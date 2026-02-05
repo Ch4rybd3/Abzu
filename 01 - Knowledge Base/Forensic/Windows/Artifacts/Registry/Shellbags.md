@@ -4,6 +4,9 @@ date: 2026-01-09
 tags:
   - Windows
   - Registry
+Platform:
+  - Windows
+Description: Represent the user navigation behavior through the explorer.exe, can help identify activity and actions related to file and docs
 ---
 # Context
 Shellbags are really powerful artifacts, but they're not as known as the others.

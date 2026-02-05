@@ -2,18 +2,19 @@
 Type: "[[Artifacts]]"
 date:
 tags:
+Platform:
+  - Windows
+File Type:
+Description: Event Trace for Windows, really low level logs in memory, log absolutely everything
 ---
+
 # Context
 ETW stands for Event Tracing Windows, it is a system that depends on 3 actors : 
 - Controller
 - Providers
 - Consumers
-![[ETW-1769518034794.png]]
 The main idea is that every component/application that wants to log an event do it by being a `provider`, which provides data to `sessions` that are administered by a `controller`.
 The data is then send to the `consumer` through `.etl` trace files (basically, ETW log file) or through `Realtime Event Delivery`.
-
-Here's an example of what it could look like
-![[ETW-1769518240130.png]]
 # Usage
 ## Utility
 Theses are especially useful because : 
