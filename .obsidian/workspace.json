@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick notes.md",
+                "file": "03 - Tools/volatility3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick notes"
+              "title": "volatility3"
+            }
+          },
+          {
+            "id": "7001a072804ffdc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Process/Incident Response/Functional/Eradication.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eradication"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,8 +234,21 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "e691418b9f595796",
+  "active": "7001a072804ffdc6",
   "lastOpenFiles": [
+    "02 - Process/Incident Response/Functional/Containment.md",
+    "02 - Process/Incident Response/Functional/Eradication.md",
+    "02 - Process/Incident Response/Functional/Post-incident review.md",
+    "02 - Process/Incident Response/Functional/Preparation.md",
+    "02 - Process/Incident Response/Functional/Recovery.md",
+    "01 - Knowledge Base/Forensic/Windows/Artifacts/Filesystem/VSS.md",
+    "01 - Knowledge Base/Forensic/Windows/Artifacts/Filesystem",
+    "02 - Process/Forensic/Functional/Acquisition.md",
+    "Quick notes.md",
+    "04 - Projects/DFIR/Repro du rapport BEC allemagne.md",
+    "03 - Tools/Get-WinEvent.md",
+    "04 - Projects/DFIR",
+    "03 - Tools/volatility3.md",
     "01 - Knowledge Base/Forensic/Windows/Artifacts/Users and groups/PowerShell History.md",
     "01 - Knowledge Base/Forensic/Windows/General/NTFS.md",
     "01 - Knowledge Base/Forensic/Windows/Artifacts/Logs/EVTX.md",
@@ -237,27 +264,14 @@
     "Templates/Artifacts.md",
     "Artifacts.base",
     "README.md",
-    "Quick notes.md",
     "Tools.base",
     "01 - Knowledge Base/Forensic/Windows/General",
     "01 - Knowledge Base/Forensic/Windows/Artifacts/Logs",
     "01 - Knowledge Base/Forensic/Windows/Artifacts/Registry",
     "01 - Knowledge Base/Forensic/Web",
     "01 - Knowledge Base/Forensic/Mac",
-    "01 - Knowledge Base/Forensic/Linux",
-    "01 - Knowledge Base/Forensic/Windows",
     "04 - Projects/Presentation/Forensic.md",
     "04 - Projects/Labs/DFIR-IRIS incident.md",
-    "03 - Tools/sqlitebrowser.md",
-    "03 - Tools/ZSH (Oh My Zsh).md",
-    "03 - Tools/avml.md",
-    "03 - Tools/volatility3.md",
-    "03 - Tools/Velociraptor.md",
-    "03 - Tools/chainsaw.md",
-    "03 - Tools/Eric Zimmerman tools/KAPE.md",
-    "03 - Tools/Sysinternals/Sysmon.md",
-    "03 - Tools/eventvwr.md",
-    "Templates/Tools.md",
     "03 - Tools/attachments/Velociraptor-1770048648072.png",
     "03 - Tools/attachments/Velociraptor-1770048634792.png",
     "03 - Tools/attachments/Velociraptor-1770048625316.png",
