@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick notes.md",
+                "file": "01 - Knowledge Base/Forensic/Memory/Why collecting memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick notes"
+              "title": "Why collecting memory"
             }
           }
         ],
@@ -234,7 +234,7 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "7001a072804ffdc6",
+  "active": "6cdd4a34db6d1d6b",
   "lastOpenFiles": [
     "01 - Knowledge Base/Forensic/Memory/Why collecting memory.md",
     "Templates/Doc.md",
