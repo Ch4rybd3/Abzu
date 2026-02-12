@@ -48,5 +48,4 @@ There should be at least 2 copy of the original artifacts :
 2. Acquire data in the volatility order
 3. Get the hashed value of the artifacts collected for integrity purpose
 4. Log everything in a chain of custody
-5. 
 

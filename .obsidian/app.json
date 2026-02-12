@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "./attachments",
   "promptDelete": false,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true
 }
