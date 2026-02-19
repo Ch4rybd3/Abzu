@@ -58,6 +58,12 @@ The console is open on 2 ports :
 - 8889 : GUI -> Where the admins connect and interact with the platform
 ![[image-3.png]]
 # Usage
+Most useful playbooks
+```
+_SANS_Triage : This is easily the best bundle in term of what it covers without covering everything.
+_KapeTriage : This is second, as it contains all the principals artifacts, but it has a slightly lower number that the SANS one. Useful for multiple workstations
+```
+
 Here's an example of a Notebook for Task Scheduler acquisition on Windows
 ```SQL
 /*

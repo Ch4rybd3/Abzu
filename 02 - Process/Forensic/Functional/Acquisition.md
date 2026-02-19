@@ -43,6 +43,13 @@ There should be at least 2 copy of the original artifacts :
 - One for analysis
 - One that has not been tampered with in any way
 - (and the original obviously)
+# Full disk image vs Triage
+Full disk image is an acquisition method often used in legal investigation because integrity is key.
+In a legal case, you want your evidences to be blameless so they can't be canceled by the adverse party for bad practices during the acquisition.
+But they tend to be heavy, weighting the same as the original disk file, and only a part of it is actually used and consider in the case.
+
+On the other hand, Triage represent the acquisition of specific high priority targets : `artifacts`.
+This is really useful in cases where you need to collect data in incident response as they are lighter, contains only useful elements and can be read and parsed directly without needing a specific tool to be extracted from a full disk image.
 # Steps
 1. Prepare your tools on an external media (USB key, network share, ...)
 2. Acquire data in the volatility order

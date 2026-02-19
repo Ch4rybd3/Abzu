@@ -38,6 +38,9 @@ Add-MailboxPermission : Full access on a mailbox given to a user
 # User added to a group in Entra
 Activities - friendly names : Added member to group
 keyword Search : $groupname
+
+# Changes done to the transport rules in Exchange online
+Activities - operation names : New-TransportRule, Set-TransportRule, Enable-TransportRule, Disable-TransportRule, Remove-TransportRule
 ```
 
 # Links
