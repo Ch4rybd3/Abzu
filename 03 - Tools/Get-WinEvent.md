@@ -20,7 +20,9 @@ Get-WinEvent -Path "C:\Logs\*.evtx" | Where-Object { $_.Id -eq 5142 -and $_.mess
 Get-WinEvent -FilterHashtable @{Path='C:\Logs\DLLHijack\*.evtx'; Id=7} |
     Where-Object { $_.Message -like "*Signed: false*" } |
     Format-List
+```
 
+```Powershell
 # Filter for specific fields using their names
 Get-WinEvent -FilterHashtable @{Path='C:\Logs\Dump\*.evtx'; Id=10} | 
     Where-Object { $_.Message -like "*lsass*" } | 
