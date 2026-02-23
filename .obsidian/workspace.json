@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Tools/volatility3.md",
+                "file": "03 - Tools/Eric Zimmerman tools/EvtxEcmd.exe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "volatility3"
+              "title": "EvtxEcmd.exe"
             }
           }
         ],
@@ -237,6 +237,9 @@
   },
   "active": "7001a072804ffdc6",
   "lastOpenFiles": [
+    "04 - Projects/Auto-response script for incidents/Objectives.md",
+    "03 - Tools/volatility3.md",
+    "04 - Projects/Auto-response script for incidents",
     "03 - Tools/sqlitebrowser.md",
     "03 - Tools/Get-WinEvent.md",
     "03 - Tools/Azure/Purview.md",
@@ -259,13 +262,11 @@
     "04 - Projects/SentinelOne Germany",
     "03 - Tools/toolx.md",
     "03 - Tools/Docker.md",
-    "03 - Tools/volatility3.md",
     "03 - Tools/eventvwr.md",
     "03 - Tools/Velociraptor.md",
     "02 - Process/Incident Response/Technical/Deploy Velociraptor to a company.md",
     "01 - Knowledge Base/Forensic/Memory/Why collecting memory.md",
     "Quick notes.md",
-    "Templates/Doc.md",
     "01 - Knowledge Base/Forensic/Memory",
     "02 - Process/Forensic/Functional/Untitled",
     "03 - Tools/Azure",
@@ -273,7 +274,6 @@
     "attachments/Quick notes-1770714201137.png",
     "attachments",
     "Tools.base",
-    "01 - Knowledge Base/Forensic/Windows/Artifacts/Filesystem",
     "03 - Tools/attachments/Velociraptor-1770048648072.png",
     "03 - Tools/attachments/Velociraptor-1770048634792.png",
     "03 - Tools/attachments/Velociraptor-1770048625316.png",
