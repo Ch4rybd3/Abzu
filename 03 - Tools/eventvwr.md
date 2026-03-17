@@ -12,12 +12,13 @@ Platform:
 # Overview
 The event viewer is the official windows process to view events logs through a GUI.
 It is a bit tedious to use, but with the proper tips, it can be useful to dig through the event logs directly without security tools
+> Be careful, the Date and Time in the tool is personalized to yout local TimeZone
 # Usage
 You can use it to navigate between multiple event log files (`.evtx`), the 3 standards are under the folder `` : 
 - Security
 - System
 - Application 
-The rest is under the folder `` and contains a lot of .evtx files related to 3rd party and specifics event log files : 
+The rest is under the folder and contains a lot of .evtx files related to 3rd party and specifics event log files : 
 - EDR
 - Proxy
 - Sysmon

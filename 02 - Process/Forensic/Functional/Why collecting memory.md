@@ -1,5 +1,7 @@
 ---
-Type: "[[Doc]]"
+Type: "[[Processes]]"
+date: 2026-03-02
+tags:
 ---
 # Context
 Memory acquisition has became a standard in the DFIR industry.

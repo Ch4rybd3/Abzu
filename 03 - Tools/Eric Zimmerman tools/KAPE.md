@@ -10,7 +10,7 @@ Description: Triage and acquisition tool that can auto-parse the results, works 
 Platform:
   - Windows
 ---
-# Overview
+ # Overview
 KAPE is a forensic tool that aims to collect artifacts on a machine.
 It is a really powerful tool as it does not copy the whole disk but only the interesting files (artifacts) making it a really fast and powerful tool.
 It has an extensive list of artifacts that you can just toggle to define a "bundle" to collect.

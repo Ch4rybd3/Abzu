@@ -13,6 +13,7 @@ Platform:
 # Overview
 Volatility3 is a tool largely used to investigate memory dumps.
 The version 3 is easier to use than the 2.6 because it does not need profiles anymore, making it a faster and easier tool.
+But you still need to use symbols, we'll explain how to generate them later in case the memory image you're trying to analyze isn't compatible with the embedded ones.
 # Usage
 ## Symbols
 Symbols are `.json.xz` files that contains data structures for the kernel.
