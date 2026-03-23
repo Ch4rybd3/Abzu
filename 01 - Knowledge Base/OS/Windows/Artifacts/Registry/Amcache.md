@@ -6,7 +6,7 @@ File Extension:
 Description: A windows registry artifact that is mainly used to determine the first time an executable was executed and it's SHA1
 ---
 # Context
-`Amcache` is a registry hive `Amcache.hve` which contains metadata on executables.
+`Amcache` is a registry hive `Amcache.hve` which contains metadata on executable.
 It's original purpose is for compatibility use, but it store useful data such as : 
 - SHA1
 - File paths

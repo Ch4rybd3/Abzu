@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Process/Incident Response/Technical/Delete an inbox rule from a user outlook client remotly.md",
+                "file": "03 - Tools/volatility3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Delete an inbox rule from a user outlook client remotly"
+              "title": "volatility3"
             }
           },
           {
@@ -149,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436.5
+    "width": 211.5
   },
   "right": {
     "id": "44994ed7bbb9f419",
@@ -246,6 +246,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -260,12 +261,23 @@
   },
   "active": "79c661e4d958493c",
   "lastOpenFiles": [
+    "04 - Projects/Rules SentinelOne/Projet documentation des règles.md",
+    "04 - Projects/Rules SentinelOne/attachments/Projet documentation des règles-1774254315235.png",
+    "04 - Projects/Rules SentinelOne/attachments/Projet documentation des règles-1774254310154.png",
+    "04 - Projects/Rules SentinelOne/attachments",
+    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Amcache.md",
+    "04 - Projects/Rules SentinelOne",
+    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Jump Lists.md",
+    "03 - Tools/volatility3.md",
+    "03 - Tools/attachments/volatility3-1773927771337.png",
+    "03 - Tools/attachments/volatility3-1773927708873.png",
+    "03 - Tools/attachments/volatility3-1773927666198.png",
+    "02 - Process/Forensic/Technical/Collecting memory.md",
+    "02 - Process/Incident Response/Technical/Delete an inbox rule from a user outlook client remotly.md",
     "02 - Process/Forensic/Technical/Velociraptor - Offline Collector - RAM.md",
     "03 - Tools/Azure/Purview.md",
     "03 - Tools/Get-WinEvent.md",
     "03 - Tools/PowerShell.md",
-    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Jump Lists.md",
-    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Amcache.md",
     "04 - Projects/Bascule des VSE.md",
     "Excalidraw/Drawing 2026-03-02 17.44.48.excalidraw.md",
     "Templates/HTB - Courses.md",
@@ -291,20 +303,8 @@
     "02 - Process/Forensic/Functional/The importance of time.md",
     "05 - Certifications/HTB/CDSA/Incident Handling Process.md",
     "01 - Knowledge Base/General",
-    "01 - Knowledge Base/OS",
-    "01 - Knowledge Base/Cloud",
-    "03 - Tools/volatility3.md",
-    "04 - Projects/Refonte des flux exchanges/A poster.md",
-    "02 - Process/Incident Response/Functional/Preparation.md",
-    "02 - Process/Incident Response/Functional/Recovery.md",
-    "02 - Process/Incident Response/Functional/Eradication.md",
     "02 - Process/Incident Response/Technical/attachments/Delete an inbox rule from a user outlook client remotly-1772114324230.png",
     "02 - Process/Incident Response/Technical/attachments/Delete an inbox rule from a user outlook client remotly-1772114191158.png",
-    "attachments/Quick notes-1770714201137.png",
-    "03 - Tools/attachments/Velociraptor-1770048648072.png",
-    "03 - Tools/attachments/Velociraptor-1770048634792.png",
-    "03 - Tools/attachments/Velociraptor-1770048625316.png",
-    "03 - Tools/attachments/image-4.png",
-    "03 - Tools/attachments/image-3.png"
+    "attachments/Quick notes-1770714201137.png"
   ]
 }

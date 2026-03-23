@@ -37,7 +37,7 @@ Symbol tables can be downloaded from the following URL :
 - [https://downloads.volatilityfoundation.org/volatility3/symbols/windows.zip](https://downloads.volatilityfoundation.org/volatility3/symbols/windows.zip)
 - [https://downloads.volatilityfoundation.org/volatility3/symbols/mac.zip](https://downloads.volatilityfoundation.org/volatility3/symbols/mac.zip)
 - [https://downloads.volatilityfoundation.org/volatility3/symbols/linux.zip](https://downloads.volatilityfoundation.org/volatility3/symbols/linux.zip)
-By default, on WIndows, when the symbol cannot be found, it is queried, downloaded, generated and cached.
+By default, on Windows, when the symbol cannot be found, it is queried, downloaded, generated and cached.
 For Linux and Mac, theses should be downloaded by using the links above and placing them in the volatility3/symbol folder (do not change name and let them zipped) OR should be generated using the `dwarf2json` tool
 This script can be used to quickly setup the symbols archives
 ```
@@ -58,7 +58,21 @@ Remember one thing before starting to use the tool :
 You can recover things from the volatile memory, but it's still volatile, so the things you'll be searching could have been flushed.
 Not seeing anything does not mean that nothing happen, but that it could just have been flushed before you started the memory acquisition.
 ### Windows
-```
+```shell
+# Scan for processes
+python .\vol.py -f <memorydump> windows.pslist
+python .\vol.py -f <memorydump> windows.pstree
+
+# Scan for network connections
+python .\vol.py -f <memorydump> windows.netscan
+python .\vol.py -f <memorydump> windows.netstat
+
+# Search for the address of a process
+python .\vol.py -f <memorydump> windows.filescan | Out-String -Stream | Select-String "<string>"
+
+# Dump the memory of a process
+python .\vol.py -f <memorydump> windows.dumpfiles --virtaddr <virtuaddress>
+python .\vol.py -f <memorydump> windows.memmap --pid <pid> --dump
 ```
 ### Linux
 ```shell
@@ -68,3 +82,11 @@ sudo tools/volatility3/vol.py -f export/memory.raw linux.pslist
 # 
 ```
 # Screenshot
+using pslist to list the process
+![[volatility3-1773927771337.png]]
+
+Searching for the address of a process
+![[volatility3-1773927708873.png]]
+
+Dumping the memory of a process by using it's address
+![[volatility3-1773927666198.png]]
