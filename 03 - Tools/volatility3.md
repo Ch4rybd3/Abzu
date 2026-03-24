@@ -61,18 +61,27 @@ Not seeing anything does not mean that nothing happen, but that it could just ha
 ```shell
 # Scan for processes
 python .\vol.py -f <memorydump> windows.pslist
+python .\vol.py -f <memorydump> windows.pslist --pid <pid>
 python .\vol.py -f <memorydump> windows.pstree
+python .\vol.py -r pretty -o <folderpath> -f <memorydump> windows.pslist # Will format in a table, useful when exporting results to file, but can be messy in the console
 
 # Scan for network connections
 python .\vol.py -f <memorydump> windows.netscan
 python .\vol.py -f <memorydump> windows.netstat
 
-# Search for the address of a process
-python .\vol.py -f <memorydump> windows.filescan | Out-String -Stream | Select-String "<string>"
-
 # Dump the memory of a process
+# The easy way, with pslist
+python .\vol.py -o <folderpath> -f <memorydump> windows.pslist --pid <pid> --dump
+# The hard way, using the virtualaddress
+python .\vol.py -f <memorydump> windows.filescan | Out-String -Stream | Select-String "<string>"
 python .\vol.py -f <memorydump> windows.dumpfiles --virtaddr <virtuaddress>
 python .\vol.py -f <memorydump> windows.memmap --pid <pid> --dump
+
+# See command lines that are still in memory
+python .\vol.py -f <memorydump> windows.cmdline
+
+# Check the user assist registry for user behavior forensics
+python .\vol.py -f <memorydump> windows.registry.userassist
 ```
 ### Linux
 ```shell
