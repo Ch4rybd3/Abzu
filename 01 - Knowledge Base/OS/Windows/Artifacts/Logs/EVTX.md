@@ -45,3 +45,15 @@ Here's a list of useful event IDs :
     - [Event ID 5145](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=5145) `(A network share object was checked to see whether client can be granted desired access)`: This event indicates that someone attempted to access a network share. Frequent checks of this sort might indicate a user or a malware trying to map out the network shares for future exploits.
     - [Event ID 5157](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=5157) `(The Windows Filtering Platform has blocked a connection)`: This is logged when the Windows Filtering Platform blocks a connection attempt. This can be helpful for identifying malicious traffic on your network.
     - [Event ID 7045](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=7045) `(A service was installed in the system)`: A sudden appearance of unknown services might suggest malware installation, as many types of malware install themselves as services.
+
+
+> EID: [[Event ID 20001]]
+> Log file: [[System.evtx]]
+> Title: Plug and Play Driver Install Attempted
+> Description: Fired when a `new device` is detected and driver installation begins. Include `device`/`vendor` name and `iSerialNumber`. First connection only.
+
+> EID: [[Event ID 20003]]
+> Log file: [[System.evtx]]
+> Title: Plug and Play Driver Install Completed
+> Description: Fired when a `new device` is detected and driver installation begins. Include `device`/`vendor` name and `iSerialNumber`. First connection only.
+

@@ -54,6 +54,25 @@ It is important to check them all as they all have their own SQLite files and th
 For example, a user using the "Default" profile could have used his local admin account to download a specific tool (like a keygen or something that would have been blocked with it's default user), therefore, the download would not appear in the default history but in the local admin one on the opposite of his day to day usage.
 
 > Another huge difference lies in the timestamp format, while the number of seconds since the 01/01/1970 is a standard, some like to do their own things like Google Chrome which count MILLISECONDS since the 01/01/1601, needing to format them using the google chrome format and not the standard
+
+# SQL example
+For Edge urls tab in the history file
+```SQL
+SELECT *
+FROM urls
+WHERE url NOT LIKE '%google.com%'
+  AND url NOT LIKE '%korian%'
+  AND url NOT LIKE '%ameli.fr%'
+  AND url NOT LIKE '%bioserveur%'
+  AND url NOT LIKE '%clariane%'
+  AND url NOT LIKE '%inserm.fr%'
+  AND url NOT LIKE '%doctolib%'
+  AND url NOT LIKE '%tcl.fr%'
+  AND url NOT LIKE '%santepubliquefrance.fr%'
+  AND url NOT LIKE '%sante-ra.fr%'
+  AND url NOT LIKE '%quora.com%'
+  AND url NOT LIKE '%gouv.fr%';
+```
 # Screenshot
 ![[sqlitebrowser-1767624529751.png|places.sqlite]]
 ![[sqlitebrowser-1767624614286.png|favicons.sqlite]]

@@ -46,6 +46,20 @@
             }
           },
           {
+            "id": "efb244e2519c7fac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Projects/Rules SentinelOne/Projet documentation des règles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Projet documentation des règles"
+            }
+          },
+          {
             "id": "ec6f37f3042d0468",
             "type": "leaf",
             "state": {
@@ -72,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,52 +273,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "79c661e4d958493c",
+  "active": "efb244e2519c7fac",
   "lastOpenFiles": [
-    "03 - Tools/Get-WinEvent.md",
-    "03 - Tools/eventvwr.md",
+    "04 - Projects/MAAP/CV.md",
+    "05 - Certifications/HTB/CDSA/Understanding Log Sources & Investigating With Splunk.md",
+    "04 - Projects/Rust Tool/Reporting.md",
+    "04 - Projects/ELK/Questions pour la présentation.md",
+    "04 - Projects/ELK",
+    "05 - Certifications/HTB/CDSA/Introduction to Threat Hunting & Hunting With Elastic.md",
+    "04 - Projects/PC d'audit/Recap.md",
+    "04 - Projects/Présentation/Workshop - Forensic Analysis using SentinelOne.md",
+    "04 - Projects/Rules SentinelOne/Projet documentation des règles.md",
+    "04 - Projects/Rules SentinelOne/Rules ideas.md",
+    "04 - Projects/Investigations/Wallix - admin.fgtfr.md",
+    "04 - Projects/Investigations/wallix all infra.md",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776067504835.png",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776067190006.png",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776066736766.png",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776066399032.png",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776066383315.png",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776066162674.png",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776066050879.png",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776065974415.png",
+    "04 - Projects/Investigations/attachments/Wallix - admin.fgtfr-1776065904155.png",
+    "README.md",
+    "Artifacts.base",
+    "Tools.base",
+    "04 - Projects/MAAP/Arguments.md",
+    "03 - Tools/Elastic/Kibana.md",
+    "03 - Tools/Sysinternals/Sysmon.md",
+    "03 - Tools/Elastic",
+    "05 - Certifications/HTB/CDSA/Incident Handling Process.md",
+    "04 - Projects/Bascule des VSE.md",
+    "04 - Projects/Threat Hunting Axios.md",
+    "01 - Knowledge Base/OS/Windows/Artifacts/Logs/EVTX.md",
+    "01 - Knowledge Base/OS/Windows/Artifacts/Logs/System.evtx.md",
+    "04 - Projects/Présentation/Objectives.md",
+    "03 - Tools/Eric Zimmerman tools/KAPE.md",
     "01 - Knowledge Base/OS/Windows/Artifacts/Registry/UserAssist.md",
+    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Shellbags.md",
+    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Jump Lists.md",
+    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Amcache.md",
+    "04 - Projects/PC d'audit",
+    "04 - Projects/Présentation",
     "01 - Knowledge Base/OS/Windows/Artifacts/Registry/attachments/UserAssist-1774345135117.png",
     "01 - Knowledge Base/OS/Windows/Artifacts/Registry/attachments",
-    "04 - Projects/CTFs/Docs/Formulaire de 1er contact.md",
-    "04 - Projects/CTFs/Docs/Résumé.md",
-    "Artifacts.base",
-    "04 - Projects/CTFs/Untitled.md",
     "04 - Projects/CTFs/Docs",
-    "03 - Tools/volatility3.md",
     "04 - Projects/CTFs",
-    "04 - Projects/Rules SentinelOne/Projet documentation des règles.md",
-    "04 - Projects/Rules SentinelOne/attachments/Projet documentation des règles-1774254315235.png",
-    "04 - Projects/Rules SentinelOne/attachments/Projet documentation des règles-1774254310154.png",
-    "04 - Projects/Rules SentinelOne/attachments",
-    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Amcache.md",
-    "04 - Projects/Rules SentinelOne",
-    "01 - Knowledge Base/OS/Windows/Artifacts/Registry/Jump Lists.md",
-    "03 - Tools/attachments/volatility3-1773927771337.png",
-    "03 - Tools/attachments/volatility3-1773927708873.png",
-    "03 - Tools/attachments/volatility3-1773927666198.png",
-    "02 - Process/Forensic/Technical/Collecting memory.md",
-    "02 - Process/Incident Response/Technical/Delete an inbox rule from a user outlook client remotly.md",
-    "02 - Process/Forensic/Technical/Velociraptor - Offline Collector - RAM.md",
-    "03 - Tools/Azure/Purview.md",
-    "03 - Tools/PowerShell.md",
-    "04 - Projects/Bascule des VSE.md",
-    "Excalidraw/Drawing 2026-03-02 17.44.48.excalidraw.md",
-    "Templates/HTB - Courses.md",
-    "01 - Knowledge Base/OS/Windows/Artifacts/Logs/EVTX.md",
-    "03 - Tools/Eric Zimmerman tools/KAPE.md",
-    "04 - Projects/MAAP/Arguments.md",
-    "04 - Projects/Varonis Germany/Project plan.md",
-    "04 - Projects/Investigations/Ngo Tonye Madeleine.md",
-    "04 - Projects/Investigations/attachments/Ngo Tonye Madeleine-1772530675935.png",
-    "04 - Projects/Investigations/attachments/Ngo Tonye Madeleine-1772530658213.png",
-    "04 - Projects/Investigations/attachments",
-    "04 - Projects/Rust Tool/Overview.md",
-    "04 - Projects/Investigations",
-    "04 - Projects/1-1/02-03-2026.md",
-    "04 - Projects/Rust Tool",
-    "01 - Knowledge Base/Memory",
-    "02 - Process/Incident Response/Technical/attachments/Delete an inbox rule from a user outlook client remotly-1772114324230.png",
-    "02 - Process/Incident Response/Technical/attachments/Delete an inbox rule from a user outlook client remotly-1772114191158.png"
+    "04 - Projects/Rules SentinelOne/attachments"
   ]
 }
